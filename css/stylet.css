@@ -1,0 +1,266 @@
+body{
+    background: rgb(242,242,242);
+    width:auto;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(185, 185, 185) 50%, rgba(255,255,255,1) 100%);}
+
+.encabezadoT {
+    opacity:0;
+    animation: keyframe_encabezado 4s;
+    -webkit-animation: keyframe_encabezado 4s;
+    animation-fill-mode: forwards;
+    flex: 1 1 auto;
+    margin-top: 0px;
+    font-family: 'Scheherazade New', serif;
+    width: 100%;
+    height: 110px;
+    background-color:rgb(0, 0, 0);
+    color:white}
+  .encabezadoT h1{font-size: 46px}
+
+
+.sect1{border-top:10px solid rgb(255, 220, 220);
+    width: 100%;
+    height: 500px;
+    padding: 2px;
+    background-image: url(tratam.jpg);
+    color: rgb(59, 30, 18); text-shadow: black;}
+  .sect1 h1{font-size: 46px; color:black;   font-family: 'Scheherazade New', serif;}
+  .sect1 h2{font-size:24px;   font-family: 'Scheherazade New', serif;}
+
+  .sect2{margin-left: 13%; width: 100px;}
+
+#botonera {
+  font-family: 'Scheherazade New', serif;
+  padding: 10px;
+  width: 600px;
+  height: 40px;
+  margin-right:15%;
+  margin-top: 20px;
+  animation: keyframe_botonera 1s;}
+#botonera ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+  padding: 20px;}
+#botonera ul li {display: inline;}
+#botonera ul li a{
+  display: inline-block;
+  padding: 20px;
+  background-color:#f7daa5;
+  color:rgb(54, 6, 6);
+  font-weight: bold;
+  text-decoration: none;}
+#botonera ul li a:link {color: rgb(0, 0, 0);}
+#botonera ul li a:hover {background-color:#ffedcb;}
+#botonera ul li a:active {color: rgb(0, 0, 0);}
+
+
+.ContenidoT{
+  margin: 20% auto;
+  padding: 0 1em;
+  max-width: 80em;}
+
+.ContenidoT h2{
+  font-size: 20px;
+  color:rgb(255, 202, 138);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bold;}
+
+.matricula {
+  background-color:rgba(255, 191, 191, 0.89);
+  color:rgb(0, 0, 0);
+  height: 80px;
+  font-size: 22px;
+  padding-left:10px;
+  padding-top: 1%;
+  padding-bottom: 6%;}
+
+
+@media screen and (min-width: 52em){
+  .foto1 .descrip1{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    padding: 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+  .foto1 .descrip1 h2{
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight: normal;
+    font-size: 1.4em;}
+   .foto1 .descrip1 p{font-size: 1.1em;}
+   .foto1 .descrip1:hover{border-color: pink;}
+   
+   
+   .foto2 .descrip2{
+   color: rgb(12, 12, 12);
+   text-decoration: none;
+   padding: 1.5em;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+   .foto2 .descrip2 h2{
+   margin-top: 0;
+   margin-bottom: .5em;
+   font-weight: normal;
+   font-size: 1.4em;}
+   .foto2 .descrip2 p{font-size: 1.1em;}
+   .foto2 .descrip2:hover{border-color: pink;}
+   
+   .foto3 .descrip3{
+   color: rgb(12, 12, 12);
+   text-decoration: none;
+   text-size-adjust: 100%;
+   padding: 1.5em;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+   .foto3 .descrip3 h2{
+    margin-top: 0;
+   margin-bottom: .5em;
+   font-weight: normal;
+   font-size: 1.4em;}
+   .foto3 .descrip3 p{font-size: 1.1em;}
+   .foto3 .descrip3:hover{border-color: pink;}
+   
+   .foto4 .descrip4{
+   color: rgb(12, 12, 12);
+   text-decoration: none;
+   padding: 1.5em;
+   text-size-adjust: 100%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+   .foto4 .descrip4 h2{
+   margin-top: 0;
+   margin-bottom: .5em;
+   font-weight: normal;
+   font-size: 1.4em;}
+   .foto4 .descrip4 p{font-size: 1.1em;}
+   .foto4 .descrip4:hover{border-color: pink;}
+   
+   .foto5 .descrip5{
+   color: rgb(12, 12, 12);
+   text-decoration: none;
+   padding: 1.5em;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+   .foto5 .descrip5 h2{
+   margin-top: 0;
+    margin-bottom: .5em;
+   font-weight: normal;
+   font-size: 1.4em;}
+   .foto5 .descrip5 p{font-size: 1.1em;}
+   .foto5 .descrip5:hover{border-color: pink;}
+   
+   .foto6 .descrip6{
+   color: rgb(12, 12, 12);
+   text-decoration: none;
+   padding: 1.5em;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+   .foto6 .descrip6 h2{
+   margin-top: 0;
+   margin-bottom: .5em;
+   font-weight: normal;
+   font-size: 1.4em;}
+   .foto6 .descrip6 p{font-size: 1.1em;}
+   .foto6 .descrip6:hover{border-color: pink;}
+   
+   .foto7 .descrip7{
+   color: rgb(12, 12, 12);
+   text-decoration: none;
+   padding: 1.5em;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+   .foto7 .descrip7 h2{
+    margin-top: 0;
+    margin-bottom: .5em;
+   font-weight: normal;
+   font-size: 1.4em;}
+   .foto7 .descrip7 p{
+   font-size: 95%;}
+   .foto7 .descrip7:hover{
+   border-color: pink;}
+   
+   .foto8 .descrip8{
+   color: rgb(12, 12, 12);
+   text-decoration: none;
+   padding: 1.5em;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+   .foto8 .descrip8 h2{
+   margin-top: 0;
+   margin-bottom: .5em;
+   font-weight: normal;
+   font-size: 1.4em;}
+   .foto8 .descrip8 p{font-size: 1.1em;}
+   .foto8 .descrip8:hover{
+   border-color: pink;}
+   
+   .foto9 .descrip9{
+   color: rgb(12, 12, 12);
+   text-decoration: none;
+   padding: 1.5em;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+   .foto9 .descrip9 h2{
+   margin-top: 0;
+   margin-bottom: .5em;
+   font-weight: normal;
+   font-size: 1.4em;}
+   .foto9 .descrip9 p{font-size: 1.1em;}
+   .foto9 .descrip9:hover{border-color: pink;}
+   
+   img{
+     display: block;
+     border: 1px;
+     border-color: pink;
+     width: 100%;
+     height: auto;}
+   
+   .foto1{
+     background-color: rgb(158, 158, 158);
+     margin-bottom: 2em;
+     width:33%;}
+   .foto2{
+     background-color: rgb(158, 158, 158);
+     margin-bottom: 2em;
+     width:33%;}
+   .foto3{
+     background-color: rgb(158, 158, 158);
+     margin-bottom: 2em;
+     width:33%;}
+   .foto4{
+     background-color: rgb(158, 158, 158);
+     margin-bottom: 2em;
+     width:33%;}
+   .foto5{
+     background-color: rgb(158, 158, 158);
+     margin-bottom: 2em;
+     width:33%;}
+   .foto6{
+     background-color: rgb(158, 158, 158);
+     margin-bottom: 2em;
+     width:33%;}
+   .foto7{
+     background-color: rgb(158, 158, 158);
+     margin-bottom: 2em;
+     width:33%;}
+   .foto8{
+     background-color: rgb(158, 158, 158);
+     margin-bottom: 2em;
+     width:33%;}
+   .foto9{
+     background-color: rgb(158, 158, 158);
+     margin-bottom: 2em;
+     width:33%;}
+   .fotos{
+   display: flex;
+   flex-wrap:wrap;
+   justify-content: space-between;}
+   }
+
+@media screen and (min-width: 10em) and (max-width: 51em){
+
+  #botonera {
+    display: grid; width: 300px;}
+
+
+  .matricula {
+    height: 110px;
+    font-size: 16px;
+    padding-left:10px;
+    padding-top: 1%;
+    padding-bottom: 6%;}
+}

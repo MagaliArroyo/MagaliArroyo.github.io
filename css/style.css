@@ -1,0 +1,204 @@
+body{
+    background: rgb(242,242,242);
+    width:auto;
+background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(185, 185, 185) 50%, rgba(255,255,255,1) 100%);}
+
+
+
+.encabezado {
+    opacity:0;
+    animation: keyframe_encabezado 4s;
+    -webkit-animation: keyframe_encabezado 4s;
+    animation-fill-mode: forwards;
+    flex: 1 1 auto;
+    margin-top: 0px;
+    width: 100%;
+    height: 80px;
+    background-color:rgb(0, 0, 0);
+    font-family: 'Scheherazade New', serif;
+    color:white}
+.encabezado h1{font-size: 46px;}
+
+.sec1{border-top:10px solid rgb(255, 220, 220);}
+
+
+#marca img{
+    width:100%;
+    height:50%;}
+
+.sec2{margin-left: 25%; width: 100px;}
+
+#botonera {
+    font-family: 'Scheherazade New', serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 600px;
+    height: 40px;
+    margin-right:20%;
+    margin-top: 20px;}
+
+#botonera ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+    padding: 20px;}
+
+#botonera ul li {display: inline;}
+
+#botonera ul li a{
+    display: inline-block;
+    padding: 20px;
+    background-color:#f7daa5;
+    color:rgb(54, 6, 6);
+    font-weight: bold;
+    text-decoration: none;}
+
+
+#botonera ul li a:link {color: rgb(0, 0, 0);}
+#botonera ul li a:hover {background-color:#ffedcb;}
+#botonera ul li a:active {color: rgb(0, 0, 0);}
+
+
+#contact{background-color: rgb(117, 117, 117);}
+#form-control1{background-color: transparent;}
+#form-control2{background-color: transparent;}
+#form-control3{background-color: transparent;}
+.form-control.falla p {
+    visibility: visible;
+    color:#e74c3c;}  
+#formulario button {
+    background: #ca1a46;
+    border:1px solid #ff3974;
+    border-radius: 2px;
+    color: #f6f6e9;
+    display: block;
+    padding: 5px;
+    font-size: 18px;}
+.form-control.ok input {
+        border: 0.1px solid;
+        border-color: #08ffc8;}
+.form-control.falla input {
+        border: 0.1px solid;
+        border-color: #fe5f55;}
+    
+
+.container{display:inline-flex}
+
+.sec3 {margin-bottom: 10px; font-family: 'Scheherazade New', serif;}
+
+.sec3 .row_sect3{
+    display: inline-flex;
+    vertical-align: top;
+    width: 70%;
+    height: 50%;
+    margin: 10px;
+    margin-left: 2%;
+    padding: 30px;}
+
+.row_sect3 col-md-2{
+    padding: left 50px;;
+}
+
+
+.matricula {
+    font-family: 'Scheherazade New', serif;
+    background-color:rgba(255, 191, 191, 0.89);
+    color:rgb(0, 0, 0);
+    height: 110px;
+    font-size: 22px;
+    padding-left:10px;
+    padding-top: 1%;
+    padding-bottom: 6%;}
+
+
+    @media all and (min-width: 1050px) and (max-width: 1200px){
+        .sec3 .row_sect3{
+            display: inline-flex;
+            vertical-align: top;
+            height: 50%;
+            width: 70%;
+            margin-left: 1%;
+            padding: 30px;}
+
+        }
+
+
+    @media all and (min-width: 800px) and (max-width: 1049px){
+        .encabezado {
+            flex: 1 1 auto;
+            margin-top: 0px;
+            width: 100%;
+        }
+
+        .encabezado h1{font-size: 44px;}
+        
+        
+        #marca img{float:none;}
+        
+        .sec2{
+            margin-left:1%;
+            margin-right:68%;
+        }
+  
+
+        .sec3 .row_sect3{
+            vertical-align: top;
+            width: 88.5%;
+            height: 100%;
+            margin: 10px 5px 0 0;
+            margin-right:0%;
+            padding: 80px;}
+
+        
+        
+        .matricula {
+            height:110px;
+            font-size: 18px;
+            padding-left:10px;
+            padding-top: 1%;
+            padding-bottom: 6%;}
+    }
+    
+    @media all and (min-width: 0px) and (max-width: 799px){
+
+        .encabezado h1{font-size: 40px;}
+
+        .sec2{
+            margin-left:25%;
+            margin-right:20%;
+        }
+
+        #botonera {
+            display: grid;
+            width: 300px;
+            height: 90px;
+            margin-top: 15px;
+            margin-bottom: 10px;}
+        
+        #botonera ul{
+            padding: 10px;}
+
+        #botonera ul li a{
+            padding: 10px;}
+        
+        
+        .sec3 .row_sect3{
+            display: grid;
+            width: 100%;
+            height: 100%;
+            margin: 10px 5px 0 0;
+            margin-right:50%;
+            padding: 10px;}
+
+            .sec3 .row_sect3{
+                width:100px; 
+            }
+        
+        .matricula {
+            height: 110px;
+            font-size: 18px;
+            padding-left:10px;
+            padding-top: 1%;
+            padding-bottom: 6%;}
+    }

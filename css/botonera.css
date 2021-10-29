@@ -1,0 +1,23 @@
+.sect2 #botonera {
+    padding: 10px;
+    width: 600px;
+    height: 40px;
+    margin-right:15%;
+    margin-top: 20px;}
+    .sect2 #botonera ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+    padding: 20px;}
+    .sect2 #botonera ul li {display: inline;}
+    .sect2 #botonera ul li a{
+    display: inline-block;
+    padding: 20px;
+    background-color:#f7daa5;
+    color:rgb(54, 6, 6);
+    font-weight: bold;
+    text-decoration: none;}
+    .sect2 #botonera ul li a:link {color: rgb(0, 0, 0);}
+    .sect2 #botonera ul li a:hover {background-color:#ffedcb;}
+    .sect2 #botonera ul li a:active {color: rgb(0, 0, 0);}
